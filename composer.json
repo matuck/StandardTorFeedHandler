@@ -1,0 +1,22 @@
+{
+    "name": "matuck/standardtorfeedhandler",
+    "type": "library",
+    "description":  "Process torrent feeds into usable items",
+    "keywords": ["torrent, rss, feed, TorFeed"],
+    "license": "GPL-v3",
+    "homepage": "https://github.com/matuck/StandardTorFeedHandler.git",
+    "authors": [
+        {
+            "name": "Mitch Tuck",
+            "email": "matuck@matuck.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "matuck/torfeed": "master"
+    },
+    "autoload": {
+        "psr-0": { "matuck\\TorFeed\\Handler\\": "" }
+    },
+    "target-dir": "matuck/TorFeed/Handler"
+}
